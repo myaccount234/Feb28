@@ -1,0 +1,19 @@
+class A
+	  
+{
+	public static void main(String[] args)
+		int = 4,2 ;
+	{
+		System.out.println(4 == 4);
+		if (true)
+		{
+			System.out.println(2 == 2);
+			if (true)
+			{
+             System.out.println("if2 eqaul");
+			}
+          System.out.println("if1 eqaul");
+		}
+		  System.out.println("main end");
+	}
+}
