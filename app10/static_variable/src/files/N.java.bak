@@ -1,0 +1,39 @@
+/* package files;
+
+public class N {
+	static int i, j, m, n =10, p, q;
+	public static void main(String[] args) 
+	{
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(m);
+		System.out.println(n);
+		System.out.println(p);
+		System.out.println(q);
+		
+	}
+	
+
+} */
+
+
+public class N {
+	N()
+	{
+		this(90);
+		System.out.println("X()");
+		// this(90);// this should always first condition,,and not in method body
+	}
+	N(int i)
+	{
+		System.out.println("X(int)");
+	}
+	void test()
+	{
+		//this();
+		System.out.println("test()");
+	}
+
+}
+
+

@@ -24,12 +24,11 @@ class L
 				{
                 System.out.println("else, else if");
 				}
-				else {
-					 System.out.println("else, else else");
-
+				else
+			    {
+			    System.out.println("else, else else");
 				}
 				 System.out.println("else inside else end");
-				
 			}
 			System.out.println("else end");
 		}

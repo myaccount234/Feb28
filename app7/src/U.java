@@ -1,11 +1,9 @@
 class U
- 
-{
+ {
 	public static void main(String[] args) 
 	{
 		if (args.length == 0)
 		{
-		
 		System.out.println("please supply one int command line argument");
 		return;
 	}
@@ -32,10 +30,9 @@ class U
 		{
 			System.out.println("outstanding performance");
 		}
-else
+   else
 		{
 			System.out.println("invalid marks");
 		}
 	}
-
 }
